@@ -9,7 +9,7 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
 
     Stack myStack;
-    myStack.push((std::vector<int>){4, 3, 2, 1});
+    myStack.push((std::vector<int>){10, 15, -2, 55, 20, 1313, 200});
 
     Stack copyStack(&myStack);
 

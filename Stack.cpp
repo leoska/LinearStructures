@@ -145,6 +145,8 @@ void Stack::clear() {
  * @returns {void}
  */
 void Stack::clear(unsigned int pos) {
+    checkPos(pos);
+
     Item* currentItem;
     for(unsigned int i = size; i > pos; --i) {
         currentItem = top;
