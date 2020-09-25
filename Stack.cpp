@@ -6,6 +6,7 @@
 #include "Item.h"
 #include <vector>
 #include <string>
+#include <stdexcept>
 
 /**
  * @constructor
